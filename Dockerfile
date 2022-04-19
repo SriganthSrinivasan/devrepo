@@ -6,4 +6,5 @@ RUN echo "Development Web Server" >> ./index.html
 WORKDIR /root/
 RUN apt-get update -y
 RUN apt-get install vim -y
+RUN apt-get upgrade -y
 
